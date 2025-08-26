@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.active {
+  background-color: blue;
+}
+.information {
+    border: 1px solid white;
+    margin: 5px 5px 5px 5px;
+    height: auto;
+    width: auto%;
+    display: grid;
+    
+}
+img {
+   object-fit: fill;
+   border: 1px solid red;
+}

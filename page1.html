@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registation Page</title>
+    <link rel="stylesheet" href="page1.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="page2.html">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li style="float: right">
+            <a href="page1.html">Log In/ Register</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <form class="regform">
+      <label for="firstName">First Name</label>
+      <input id="firstName" type="text" name="firstName" />
+
+      <br />
+      <label for="lastName">Last Name</label>
+      <input id="lastName" type="text" name="lastname" />
+      <br />
+      <hr />
+      <label for="email">Email</label>
+      <input id="email" type="text" name="Email" />
+      <br />
+      <label for="password">Password</label>
+      <input id="password" type="text" name="Password" />
+      <br />
+      <label for="confirmpassword">Confirm Password</label>
+      <input id="confirmpassword" type="text" name="ConfirmPassword" />
+      <br />
+      <fieldset>
+        <legend>Gender</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="female" id="female" />
+        <label for="other">Other</label>
+        <input type="radio" name="other" id="other" />
+      </fieldset>
+      <br />
+      <hr />
+      <label for="dateOfbirth">Date of Birth:</label>
+      <input id="dateOfbirth" type="date" name="dateOfbirth" />
+      <br />
+      <hr />
+      <label for="address">Street Address:</label>
+      <input id="address" type="text" name="address" />
+
+      <br />
+      <label for="city">City:</label>
+      <input id="city" type="text" name="city" />
+      <br />
+      <label for="state">State:</label>
+      <input id="state" type="text" name="state" />
+
+      <br />
+      <label for="zipcode">Zipcode:</label>
+      <input id="zipcode" type="text" name="zipcode" />
+    </form>
+  </body>
+</html>
