@@ -10,17 +10,17 @@
     <header>
       <nav>
         <ul>
-          <li><a class="active" href="#home">Home</a></li>
-          <li><a href="page2.html">Services</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="page2.html">Register</a></li>
           <li><a href="#">Contact</a></li>
           <li style="float: right">
-            <a href="page1.html">Log In/ Register</a>
+            <a href="page2.html">Log In</a>
           </li>
         </ul>
       </nav>
     </header>
     <br />
-    <form class="regform">
+    <!-- <form class="regform">
       <label for="firstName">First Name</label>
       <input id="firstName" type="text" name="firstName" />
 
@@ -66,6 +66,81 @@
       <br />
       <label for="zipcode">Zipcode:</label>
       <input id="zipcode" type="text" name="zipcode" />
+      <br />
+      <button><a href="page2.html">Submit</a></button>
+    </form> -->
+    <form action="regestration">
+      <table>
+        <tbody>
+          <caption>
+            Sign - Up
+          </caption>
+          <tr>
+            <td>
+              <label for="firstName">First Name</label>
+              <input id="firstName" type="text" name="firstName" />
+            </td>
+            <td>
+              <label for="middleName">Middle Name</label>
+              <input id="middleName" type="text" name="middlename" />
+            </td>
+            <td>
+              <label for="lastName">Last Name</label>
+              <input id="lastName" type="text" name="lastname" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="email">Email</label>
+              <input id="email" type="text" name="Email" />
+            </td>
+            <td>
+              <label for="password">Password</label>
+              <input id="password" type="text" name="Password" />
+            </td>
+            <td>
+              <label for="confirmpassword">Confirm Password</label>
+              <input id="confirmpassword" type="text" name="ConfirmPassword" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="address">Street Address:</label>
+              <input id="address" type="text" name="address" />
+            </td>
+            <td>
+              <label for="city">City:</label>
+              <input id="city" type="text" name="city" />
+            </td>
+            <td>
+              <label for="state">State:</label>
+              <input id="state" type="text" name="state" />
+            </td>
+          </tr>
+
+          <td>
+            <label for="zipcode">Zipcode:</label>
+            <input id="zipcode" type="text" name="zipcode" />
+          </td>
+          <td>
+            <label for="dateOfbirth">Date of Birth:</label>
+            <input id="dateOfbirth" type="date" name="dateOfbirth" />
+          </td>
+          <td>
+            <fieldset>
+              <legend>Gender</legend>
+              <label for="male">Male</label>
+              <input type="radio" name="male" id="male" />
+              <label for="female">Female</label>
+              <input type="radio" name="female" id="female" />
+              <label for="other">Other</label>
+              <input type="radio" name="other" id="other" />
+            </fieldset>
+          </td>
+        </tbody>
+      </table>
+      <button><a href="page2.html">Submit</a></button>
     </form>
   </body>
 </html>

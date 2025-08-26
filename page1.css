@@ -3,7 +3,7 @@ body {
   color: white;
 }
 .regform {
-  border: 1px solid red;
+  border: 2px solid red;
   height: 100vh;
   margin: 5px 5px 5px 5px;
   padding: 10px;
@@ -36,9 +36,30 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: orange;
+  background-color: blue;
 }
 
 .active {
   background-color: blue;
+}
+button:hover {
+  background-color: blue;
+}
+form {
+  /* border: 2px solid red; */
+  height: 100vh;
+  margin: 5px 5px 5px 5px;
+  padding: 10px;
+  text-align: left;
+  color: orange;
+} 
+table {
+  border: 2px solid blue;
+  /* height: 100vh; */
+}
+td {
+  border: 1px solid ;
+}
+.regestration {
+  border: 1px solid red;
 }
