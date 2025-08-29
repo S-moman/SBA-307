@@ -70,8 +70,6 @@
       <button><a href="page2.html">Submit</a></button>
     </form> -->
 
-
-
     <form action="regestration">
       <table>
         <tbody>
@@ -100,11 +98,15 @@
             </td>
             <td>
               <label for="password">Password</label>
-              <input id="password" type="text" name="Password" />
+              <input id="password" type="password" name="Password" />
             </td>
             <td>
               <label for="confirmpassword">Confirm Password</label>
-              <input id="confirmpassword" type="text" name="ConfirmPassword" />
+              <input
+                id="confirmpassword"
+                type="password"
+                name="ConfirmPassword"
+              />
             </td>
           </tr>
           <tr>
@@ -117,8 +119,15 @@
               <input id="city" type="text" name="city" />
             </td>
             <td>
-              <label for="state">State:</label>
-              <input id="state" type="text" name="state" />
+              <label for="state">Choose State:</label>
+
+              <select name="state" id="homeState">
+                <option value="">Please choose a state</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="NY">New York</option>
+                <option value="OH">Ohio</option>
+                <option value="WV">West Virginia</option>
+              </select>
             </td>
           </tr>
 
@@ -145,5 +154,7 @@
       </table>
       <button><a href="page2.html">Submit</a></button>
     </form>
+
+    <form action="active"></form>
   </body>
 </html>

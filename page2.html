@@ -4,13 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log In Page</title>
-    <link rel="stylesheet" href="page2.css" />
+    <!-- <link rel="stylesheet" href="page2.css" /> -->
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+        border-right: 1px solid #bbb;
+      }
+
+      li:last-child {
+        border-right: none;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: green;
+      }
+
+      table {
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        height: 500px;
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin: 5px 5px 5px 5px;
+        top: 300px;
+      }
+      td {
+        /* border: 1px solid rebeccapurple; */
+        display: flex;
+        justify-content: center;
+      }
+      .pic {
+        height: 100px;
+        position: relative;
+        left: 5px;
+        top: 50px;
+      }
+      .tcontainer {
+        /* border: 2px solid red; */
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+      }
+      .forgotPassword a {
+        color: green;
+      }
+      .forgotPassword a:active {
+        color: blue;
+      }
+    </style>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="home" href="index.html">Home</a></li>
           <li><a href="page1.html">Register</a></li>
           <li><a href="#">Contact</a></li>
           <li style="float: right">
@@ -19,7 +90,7 @@
         </ul>
       </nav>
     </header>
-    <div class="tcontainer">
+    <form class="tcontainer">
       <table>
         <tbody>
           <tr>
@@ -27,25 +98,40 @@
           </tr>
           <tr>
             <td>
-              <label for="userName"
-                >User Name
-                <input type="text" name="userName" id="UserName" required />
+              <label for="userName">
+                <input
+                  type="text"
+                  name="userName"
+                  id="UserName"
+                  placeholder="User Name"
+                  required
+                />
               </label>
             </td>
           </tr>
           <tr>
             <td>
-              <label for="password"
-                >Password
-                <input type="password" name="password" id="password" />
+              <label for="password">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                />
               </label>
             </td>
+          </tr>
+          <tr>
+            <td><button>Log In</button></td>
+          </tr>
+          <tr>
+            <td class="forgotPassword"><a href="#">Forgot Password</a></td>
           </tr>
           <tr class="pic">
             <td><img width="200px" src="./images/mowing.gif" alt="" /></td>
           </tr>
         </tbody>
       </table>
-    </div>
+    </form>
   </body>
 </html>

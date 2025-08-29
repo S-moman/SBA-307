@@ -3,7 +3,7 @@ body {
   color: white;
 }
 .regform {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 100vh;
   margin: 5px 5px 5px 5px;
   padding: 10px;
@@ -35,32 +35,32 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: blue;
+li a:hover {
+  background-color: green;
 }
 
-.active {
-  background-color: blue;
-}
+/* .active {
+  background-color: green;
+} */
 button:hover {
-  background-color: blue;
+  background-color: green;
 }
-form {
+.container {
   /* border: 2px solid red; */
   height: 100vh;
   margin: 5px 5px 5px 5px;
   padding: 10px;
   text-align: left;
   color: orange;
-} 
+}
 table {
   margin: 5px 5px 5px 5px;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
   /* height: 100vh; */
   width: 100%;
 }
 td {
-  border: 1px solid ;
+  border: 1px solid;
   height: 20px;
   width: 20px;
 }

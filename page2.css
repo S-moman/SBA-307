@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color:black;
     color: white;
 }
@@ -35,7 +35,7 @@ li a:hover:not(.active) {
   background-color: blue;
 }
 table {
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -48,7 +48,7 @@ table {
   top: 300px;
 }
 td {
-  /* border: 1px solid rebeccapurple; */
+  border: 1px solid rebeccapurple;
   display: flex;
   justify-content: center;
 }
@@ -59,8 +59,8 @@ td {
   top: 50px;
 }
 .tcontainer {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   height: 100vh;
   display: flex;
   justify-content: center;
-}
+} */

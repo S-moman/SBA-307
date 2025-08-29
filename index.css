@@ -1,8 +1,8 @@
 body {
-    background-color: black;
-    color: white;
-    border: 1px solid red;
-    height: 100vh;
+  background-color: black;
+  color: white;
+  /* border: 1px solid red; */
+  height: 100vh;
 }
 ul {
   list-style-type: none;
@@ -29,18 +29,16 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: blue;
+li a:hover {
+  background-color: green;
 }
-.active {
-  background-color: blue;
-}
+
 .midsection {
-    border: 1px solid white;
-    margin: 5px 5px 5px 5px;
-    height: 100vh;
-    width: auto;
-    /* display: grid; */
+  border: 1px solid white;
+  margin: 5px 5px 5px 5px;
+  height: 100vh;
+  width: auto;
+  display: grid;
 }
 /* .information {
     border: 1px solid blue;
@@ -52,28 +50,32 @@ li a:hover:not(.active) {
   top: 200px;
     display: grid;   
 } */
- #tagLine {
-    border: 1px solid blue;
-    margin: 5px 5px 5px 5px;
-    height: auto;
-    width: auto;
-    position: absolute;
+#tagLine {
+  /* border: 1px solid blue; */
+  margin: 5px 5px 5px 5px;
+  height: auto;
+  width: auto;
+  position: absolute;
   left: 150px;
   top: 200px;
-    /* display: grid;    */
+  /* display: grid;    */
 }
 img {
-  position: relative;
-  left: 600px;
-   border: 1px solid green;
-   
+  bottom: 30px;
+  border: 1px solid green;
 }
 #aboutSection {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 2px 2px 2px 2px;
   width: 60%;
   height: 500px;
   position: absolute;
   left: 300px;
-  top: 500px;
+  top: 600px;
+}
+article {
+  /* border: 1px solid red; */
+  position: relative;
+  left: 40px;
+  top: 50px;
 }
